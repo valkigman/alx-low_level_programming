@@ -1,17 +1,17 @@
 #include "main.h"
 
 /**
- * main - Print the word "_putchar"
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
+	char p[9] = "_putchar";
 	int i;
-	char p[] = "_putchar";
 
-	for (i = 0; i < 9; i++)
+	for (i = 0; i < 8; i = i + 1)
 	{	
 		_putchar(p[i]);
 	}
