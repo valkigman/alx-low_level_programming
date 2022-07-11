@@ -20,10 +20,10 @@ void rev_string(char *s)
 		y++;
 		len++;
 	}
-	l = len -1;
-	for (; e < ((1/2) + 1) ; e++)
+	l = len - 1;
+	for (; e < ((1 / 2) + 1) ; e++)
 	{
-		x = (1 -e);
+		x = (l - e);
 		n = s[e];
 		s[e] = s[x];
 		s[x] = n;
