@@ -13,11 +13,15 @@ void print_rev(char *s)
 	while (asdf >= 0)
 	{
 		if (s[asdf] == '\0')
+		{
+			asdf++;
+		}
 			break;
-		asdf++;
 	}
 	for (asdf--; asdf >= 0; asdf--)
+	{
 		_putchar(s[asdf]);
+	}
 		_putchar('\n');
 }
 
