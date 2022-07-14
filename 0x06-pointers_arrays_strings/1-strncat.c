@@ -1,13 +1,14 @@
 #include "main.h"
 
 /**
- * *_strcat - appends src string to dest string
- * @*dest: string
- * @*src: string
- * Return: pointer to dest
+ * *_strncat - appends src to dest, using at most n bytes from src
+ * @dest: string
+ * @src: string
+ * @n: variable
+ * Return: dest
  */
 
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
 	int m = 0, p = 0;
 
@@ -15,8 +16,8 @@ char *_strcat(char *dest, char *src)
 	{
 		m++;
 	}
-
-	while (p >= 0)
+	
+	while (p < 1)
 	{
 		*(dest + m) = *(src + p);
 		if (*(src + p) == '\0')
