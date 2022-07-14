@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * *_strcat - appends src string to dest string
+ * _strcat - appends src string to dest string
  * @*dest: string
  * @*src: string
+ *
  * Return: pointer to dest
  */
 
