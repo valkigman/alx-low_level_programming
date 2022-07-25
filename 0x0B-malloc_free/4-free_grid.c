@@ -4,7 +4,7 @@
 /**
  * free_grid - frees a 2d integer grid previously created by alloc_grid
  * @grid: pointer to array of ints
- * @heights: number of rows
+ * @height: number of rows
  *
  * Return: nothing
  */
