@@ -38,7 +38,7 @@ char *argstostr(int ac, char **av)
 			k++;
 			j = 0;
 		}
-		if (k < c -1)
+		if (k < c - 1)
 			aout[k] = av[i][j];
 	}
 	aout[k] = '\0';
