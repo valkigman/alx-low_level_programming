@@ -15,6 +15,7 @@ int _strlen(const char *s)
 		;
 	return (i);
 }
+
 /**
  * _strdup - recreation of string duplicate function
  * @src: source of string to duplicate
@@ -34,6 +35,7 @@ void *_strdup(const char *src)
 	dest[i] = '\0';
 	return (dest);
 }
+
 /**
  * add_node_end - add new nodes to the end of the list
  * @head: current place in the list
